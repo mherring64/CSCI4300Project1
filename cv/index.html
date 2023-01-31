@@ -1,45 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-<style>
-    @import url('https://developer.microsoft.com/en-us/microsoft-edge/testdrive/demos/variable-fonts')
-</style>
 <head>
     <meta charset="utf-8">
     <link rel="icon" href="/favicon.ico">
     <title>Megan Herring</title>
     <link rel="stylesheet" href= "css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Raleway:ital,wght@1,300&display=swap" rel="stylesheet" >
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600&family=EB+Garamond:wght@500&family=Playfair+Display:wght@600&family=Raleway:ital,wght@1,300&family=Urbanist:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600&family=EB+Garamond:wght@500&family=Josefin+Slab:wght@300;600&family=Playfair+Display:wght@600&family=Raleway:ital,wght@1,300&family=Urbanist:wght@200&display=swap" rel="stylesheet">
 </head>
 <body>
     <div id="first">
         <center>
             <h1>Megan Herring</h1>
             <h2>Student at the University of Georgia</h2>
-            <img src = "images/IMG_6002.JPG" alt = "Megan Herring Picture1" width = "200 px">
-            <img src = "images/IMG_0534.JPG" alt = "Megan Herring Picture3" width = "250 px">
-            <img src = "images/meganimage.jpg" alt = "Megan Herring Picture2" width = "200 px">
+            <img src = "images/IMG_6002.JPG" alt = "Megan Herring Picture1" width = "204 px">
+            <img src = "images/IMG_0534.JPG" alt = "Megan Herring Picture3" width = "250 px" id ="middle">
+            <img src = "images/meganimage.jpg" alt = "Megan Herring Picture2" width = "204 px">
             <h2>Hello :)</h2>
             <p>
                 A third year computer science student with a minor in mathematics and a certificate in data science. <br>
                 I love to collaborate with teams on projects and am interested in learning more about web programming.
             </p>
-            <hr>
         </center>
     </div>
-    
+    <hr>
     <div id= "second">
-        <img src = "images/64226408846__B7CA3BC4-39E1-44D8-8387-17E02463ABF3.jpg" alt="snake game" width="150px" align="right" >
-        <h2>My skills</h2>
-        <h3>Languages</h3>
-        <ul>
-            <li>Java </li>
-            <li>Python</li>
-            <li>C</li>
-            <li>C++</li>
-            <li>MIPS assembly language</li>
-        </ul>
+            <div id="Language">
+                <h2>My skills</h2>
+                <h3>Languages</h3>
+            <ul>
+                <li>Java </li>
+                <li>Python</li>
+                <li>C</li>
+                <li>C++</li>
+                <li>MIPS assembly language</li>
+            </ul>
+            <img src="images/64226408846__B7CA3BC4-39E1-44D8-8387-17E02463ABF3.jpg" alt="java game" id="game">
+        </div>
+
         <hr>
-        <div>
-            <img id ="vet" src="images/IMG_4272.JPG" alt = "Megan Vet Picture" align="right" width=200px>
+
+        <div id="Leadership">
             <h3>Leadership and Experience</h3>
             <dl>
             <dt><b>Wiply:</b> Software Development Intern</dt> <dd>May - August 2022</dd>
@@ -50,22 +54,28 @@
             <dt><b>American Girl Doll:</b> Retail Associate</dt> <dd>August 2019 - January 2020</dd>
             <dt><b>Village Animal Hospital:</b> Veterinary Intern</dt> <dd>August 2019 - January 2020</dd>
             </dl>
+            <img id ="vet" src="images/IMG_4272.JPG" alt = "Megan Vet Picture" align="right" width=200px>
         </div>
         <hr>
     </div>
     <div id="third">
-        <h3>Skills</h3>
-            <img id ="asl" src="images/Screen Shot 2023-01-29 at 9.39.33 PM.png" alt = "Megan Vet Picture" align="right" width=250px>
+        <div id="skills">
+            <h3>Skills</h3>
             <dl>
                 <dt>American Sign Language</dt><dd>&#11088; &#11088; &#11088;</dd>
                 <dt>Spanish</dt><dd>&#11088; &#11088;</dd>
                 <dt>Marketing</dt> <dd>&#11088; &#11088; &#11088; &#11088;</dd>
-
             </dl>
-        <h3><a id ="contact" href=contact.html>Get in Touch</a></h3>
+            <h3><a id ="contact" href=contact.html>Get in Touch</a></h3>
+            <center>
+                <img id ="asl" src="images/Screen Shot 2023-01-29 at 9.39.33 PM.png" alt = "Megan Vet Picture" align="right" width=250px>
+            </center>
+        </div>
         <hr>
+        <center>
+            <p>Megan Herring ©</p>
+        </center>
     </div>
-    <p>Megan Herring ©</p>
 
 </body>
 </html>

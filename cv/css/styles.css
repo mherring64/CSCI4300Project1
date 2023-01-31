@@ -1,26 +1,49 @@
 body {
-    background-color: rgba(252, 223, 239, 0.404);
+    background-color: rgba(255, 251, 195, 0.26);
     margin: 0;
     padding: 0;
 }
-#first{
-    background-color: rgba(253, 249, 183, 0.274);
-}
+
 #second{
     padding: 10px;
+    background-color: rgb(255, 236, 243);
 }
 #third{
     padding: 10px; 
+    background-color: rgb(255, 236, 243);
+}
+h1{
+    font-family: 'Playfair Display', serif;
+    color: hotpink
+}
+h2{
+    font-family: 'Libre Caslon Text', serif;
 }
 
+h3{
+    font-family: 'Urbanist', sans-serif;
+    font: bold;
+    color: rgb(83, 183, 241);
+}
+ul{
+    font-family: 'Urbanist', sans-serif;
+}
+dl{
+    font-family: 'Urbanist', sans-serif;
+}
+
+p{
+    font-family: 'Urbanist', sans-serif;
+}
 a{
     color:hotpink;
     text-decoration: none;
 }
 
-h3 {
-    font-family: ;
-}
+a:hover {
+    color: rgb(187, 145, 255);
+  }
+
 
 #contact {
     background-color: white;
@@ -31,8 +54,8 @@ h3 {
     }
 
 hr{
-    border-width: 3px;
-    border-color: rgb(181, 176, 230);
+    border-width: 2px;
+    border-color: rgb(160, 159, 159);
 }
 
 img{
@@ -41,12 +64,76 @@ img{
 }
 
 #vet{
-    margin-left: 0px 0px 0px 30px;
+    float: right; 
+    margin-right: 275px;
+    border: black 2px solid;
+    bottom: 5px;
 }
 #asl{
-   object-position: top left;
+    float: right; 
+    margin-right: 250px;
+    border: black 2px solid;
+    bottom: 5px;
 }
 
 #middle{
-    style="width: 300px; height: 400px; object-fit:cover"
+    border: 2px solid rgb(226, 74, 150);
 }
+
+#game {
+    width: 150px;
+    border: black 2px solid;
+    float: right; 
+    margin-right: 300px;
+}
+
+div#Language{
+    columns: 2;
+    display:block;
+    margin-left:50px;
+}
+
+div#Leadership{
+    columns: 2;
+    display:block;
+    margin-left:50px;
+}
+
+div#skills{
+    columns: 2;
+    display:block;
+    margin-left:50px;
+}
+head{
+    background-color: rgba(253, 249, 183, 0.274);
+}
+
+.form{
+    padding: 5px;
+    margin-left: 10px;
+}
+input[type=text] {
+    background-color: rgb(255, 236, 243);
+  }
+
+  textarea {
+    width: 45%;
+    height: 100px;
+    padding: 12px 20px;
+    border: 2px solid rgb(14, 13, 13);
+    border-radius: 4px;
+    background-color: rgb(255, 236, 243);
+  }
+
+  .contact{
+      margin-left:20px;
+  }
+
+  #uga{
+    margin-left:20px;
+  }
+
+  b{
+      font: bolder;
+      font-family: 'Libre Caslon Text', serif, bold;
+  }

@@ -1,0 +1,52 @@
+body {
+    background-color: rgba(252, 223, 239, 0.404);
+    margin: 0;
+    padding: 0;
+}
+#first{
+    background-color: rgba(253, 249, 183, 0.274);
+}
+#second{
+    padding: 10px;
+}
+#third{
+    padding: 10px; 
+}
+
+a{
+    color:hotpink;
+    text-decoration: none;
+}
+
+h3 {
+    font-family: ;
+}
+
+#contact {
+    background-color: white;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    border: 2px black;
+    }
+
+hr{
+    border-width: 3px;
+    border-color: rgb(181, 176, 230);
+}
+
+img{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#vet{
+    margin-left: 0px 0px 0px 30px;
+}
+#asl{
+   object-position: top left;
+}
+
+#middle{
+    style="width: 300px; height: 400px; object-fit:cover"
+}
